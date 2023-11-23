@@ -1,3 +1,4 @@
+
 *{
 	margin: 0;
 	padding: 0;
@@ -67,11 +68,11 @@ body{
 
 	text-align: center;
 	text-decoration: none;
-	color: #fff;
+	color: #000000;
 }
 
 .category_list .ct_item-active{
-	background: #3390f3;
+	background: #cf9802;
 }
 
 /* PRODUCTOS ============*/
@@ -247,7 +248,7 @@ body {
   *, *:before, *:after {
 	  box-sizing: border-box;
   }
-  /** * Eric Meyer's Reset CSS v2.0 (https://meyerweb.com/eric/tools/css/reset/) * http://cssreset.com */
+  
   html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
@@ -277,7 +278,7 @@ body {
 	margin: 25px 10px;
   font-size: 28px;
   text-align: center;
-  color: cornsilk;
+  color: rgb(0, 0, 0);
   }
   .container {
 	margin: 10px auto;
@@ -289,7 +290,7 @@ body {
 	content: "" clear  both;
   }
   nav.menu {
-	background: rgb(165, 141, 2);
+	background: rgb(197, 168, 1);
 	position: relative;
 	min-height: 45px;
 	height: 100%;
@@ -298,25 +299,25 @@ body {
   .menu > ul > li {
 	list-style: none;
 	display: inline-block;
-	color: #fff;
+	color: #000000;
 	line-height: 45px;
 	
   }
   .menu > ul li a, .xs-menu li a {
 	text-decoration: none;
-	color: #fff;
+	color: #000000;
 	 display:block;
-	 padding: 0px 24px;
+	 padding: 0px 30px;
   }
   .menu > ul li a:hover {
-	background:#aca902;
-	color: #fff;
+	background:#be9c05;
+	color: #000000;
 	transition-duration: 0.3s;
 	-moz-transition-duration: 0.3s;
 	-webkit-transition-duration: 0.3s;
   }
   .active{
-	background:rgb(167, 151, 2)202 !important;
+	background:rgb(173, 156, 1)202 !important;
 	
   }
   .displaynone{
@@ -326,12 +327,12 @@ body {
   display:none;
   }
   .xs-menu-cont > a {
-	  background: none repeat scroll 0 0 #927801;
+	  background: none repeat scroll 0 0 #c29e00;
 	  border-radius: 3px;
 	  padding: 3px 6px;
 	display: block;
 	border-bottom:1px solid #9c8502;
-		box-shadow: 0 1px 2px #ffffff;
+		box-shadow: 0 1px 2px #000000;
 	  -webkit-box-shadow: 0 1px 2px #9c8d02;
 	  -moz-box-shadow: 0 1px 2px #e7e301;
   }
@@ -340,10 +341,10 @@ body {
   }
 	
   .xs-menu li {
-  color: #ffffff;
+  color: #000000;
   padding: 14px 30px;
-  border-bottom: 1px solid #ccc;
-  background: rgba(114, 87, 0, 0.8);
+  border-bottom: 1px solid #000000;
+  background: rgba(212, 163, 2, 0.8);
   
   }
   .xs-menu  a{
@@ -362,7 +363,7 @@ body {
 	  
   }
   #menutoggle i {
-	  color: #fff;
+	  color: #000000;
 	  font-size: 33px;
 	  margin: 0;
 	  padding: 0;
@@ -408,7 +409,7 @@ body {
 	  background:inherit !important;
   }
   .left-images > p {
-	  background: none repeat scroll 0 0 #aca902;
+	  background: none repeat scroll 0 0 rgb(172, 147, 2);
 	  display: block;
 	  font-size: 18px;
 	  line-height: normal;
@@ -421,7 +422,7 @@ body {
 	  text-transform: uppercase;
   }
   .mm-view-more{
-	background: none repeat scroll 0 0 #605a02;
+	background: none repeat scroll 0 0 #a88f01;
 	  color: #fff;
 	  display: inline !important;
 	  line-height: normal;
@@ -434,10 +435,10 @@ body {
   }
   .drop-down > a:after{
   content:"\f103";
-  color:#fff;
+  color:#000000;
   font-family: FontAwesome;
   font-style: normal;
-  margin-left: 5px;
+  margin-left: 8px;
    
   
   }
@@ -487,23 +488,24 @@ body {
   .fadeIn {
 	-webkit-animation-name: fadeIn;
 	animation-name: fadeIn;
-
+  }
+ 
    .float{
 	position:fixed;
-	width:60px;
-	height:60px;
+	width:63px;
+	height:63px;
 	bottom:60px;
 	right:60px;
 	background-color:#048634;
 	color:#FFF;
 	border-radius:40px;
-	text-align:center;
-  font-size:59px;
-	box-shadow: 5px 5x 5px #999;
+	text-align: center;
+  font-size:60px;
+	box-shadow: 5px 5x 5px #0a0a0abd;
   z-index:100;
 }
 .float :hover{
-	transform: scale(1.4);
+	transform: scale(1.3);
 }
 
 	/* Estilos generales */
@@ -537,6 +539,95 @@ body {
             margin: 0 auto;
         }
     }
+  
+	
+	
+
+	#container {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		height: 100vh;
+		
+	  }
+  
+	  .column {
+		flex: 1;
+		text-align: center;
+		padding: 20px;
+		background-color: #ffffff;
+		border-radius: 8px;
+		box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+		margin: 10px;
+	  }
+  
+	  img {
+		width: 300px;
+		height: 300px;
+		border-radius: 8px;
+		margin-bottom: 20px;
+	  }
+  
+	  ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	  }
+  
+	  li {
+		margin-bottom: 10px;
+	  }
+	  h1{
+		font-size: 15px;
+		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	  }
+
+	  @media only screen and (max-width: 768px) {
+		#container {
+		  flex-direction: row;
+		  align-items: stretch;
+		  width: 100%;
+		  height: 50%;		
+		}
+	  
+		.column {
+		  margin: 10px 0;
+		}
+	  
+		img {
+		  width: 100%;
+		  height: auto;
+		  margin-bottom: 10px;
+		}
+	  }
+
+	  .descrip {
+
+		background-color: rgb(221, 207, 10);
+		width: 100%;
+		height: 100%;
+		
+		}
+		.descrip h1{
+			
+				font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+				font-size: 30px;
+				text-align: center;
+				background-color: rgb(255, 217, 0);
+			}
+		.descrip p {
+
+			text-align: justify;
+			font-size: 14px;
+			margin-top: 3%;
+		}
+	
+
+
+
+
+
+
 
 
 
@@ -554,7 +645,7 @@ footer{
     display: grid;
     grid-template-columns: 30% 15% 15% 20%;
     column-gap: 5%;
-    padding: 1rem;
+    padding: .6rem;
     margin: 2rem auto;
     max-width: 1200px;
   }
@@ -604,6 +695,8 @@ footer{
     color: #576171;
     font-size: .9rem;
   }
+
+
 
 
 
