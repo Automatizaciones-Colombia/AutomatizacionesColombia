@@ -41,7 +41,7 @@ header h1{
 .contenedor .contenedor-items .item{
     max-width: 200px;
     margin: auto;
-   
+    background-color:rgb(255, 255, 255);
     border-radius: 10px;
     padding: 20px;
     transition: .3s;
@@ -210,8 +210,14 @@ header h1{
   }
 
 
+.plan{
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+.plan button{
 
-
+    border-radius: 5px;
+}
 
 
 
@@ -258,6 +264,7 @@ header h1{
     text-align:center;
     top:50%;
     transform:translate(-50%, -50%);
+     
   }
   
   h1 {
@@ -272,7 +279,6 @@ header h1{
       transform:translateX(25%);
     }
   }
-
 
 
 
