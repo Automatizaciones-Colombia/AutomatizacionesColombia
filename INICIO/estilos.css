@@ -347,7 +347,7 @@ body {
 }
 
 /* Estilos para teléfonos móviles */
-@media (max-width: 480px) {
+@media (max-width: 780px) {
     .banner img {
         margin-bottom: 10px; /* Añade un pequeño espacio entre las imágenes */
     }
