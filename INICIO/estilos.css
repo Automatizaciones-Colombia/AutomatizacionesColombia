@@ -816,7 +816,7 @@ footer{
 /* Estilos para computadoras de escritorio */
 .banner {
     display: flex;
-	width: 30%;
+	width: 50%;
 	
 }
 
@@ -833,7 +833,7 @@ footer{
 }
 
 /* Estilos para teléfonos móviles */
-@media (max-width: 480px) {
+@media (max-width: 580px) {
     .banner img {
         margin-bottom: 10px; /* Añade un pequeño espacio entre las imágenes */
     }
