@@ -327,33 +327,7 @@ body {
         }
     }
   
-/* Estilos para computadoras de escritorio */
-.banner {
-    display: flex;
-	width: 30%;
-	
-}
 
-.banner img {
-    width: 100%;
-    height: auto;
-}
-
-/* Estilos para tabletas */
-@media (max-width: 768px) {
-    .banner {
-        flex-direction: column;
-    }
-}
-
-/* Estilos para teléfonos móviles */
-  @media only screen and (max-width: 767px) {
-        .banner img {
-            width: 350px;
-            height: 350px;
-            margin: 0 auto;
-        }
-}
 	  
 	  
 	
