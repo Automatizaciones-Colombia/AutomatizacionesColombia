@@ -242,6 +242,7 @@ body {
 .topnav {
 	background-color: #0a0a0a;
 	overflow: hidden;
+	width:100%;
   }
   
   /* Style the links inside the navigation bar */
