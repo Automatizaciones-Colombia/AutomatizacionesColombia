@@ -347,10 +347,12 @@ body {
 }
 
 /* Estilos para teléfonos móviles */
-@media (max-width: 1080px) {
-    .banner img {
-        margin-bottom: 10px; /* Añade un pequeño espacio entre las imágenes */
-    }
+  @media only screen and (max-width: 767px) {
+        .banner img {
+            width: 350px;
+            height: 350px;
+            margin: 0 auto;
+        }
 }
 	  
 	  
