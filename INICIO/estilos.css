@@ -395,22 +395,27 @@ body {
 		font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	  }
 
-	 @media only screen and (max-width: 768px) {
+	@media only screen and (max-width: 768px) {
     #container {
         flex-direction: column;
-        align-items: center; /* Alinea los elementos al centro en dispositivos móviles */
+        align-items: center;
         width: 100%;
     }
 
     .column {
         margin: 10px 0;
-        width: 100%; /* Ocupa el 100% del ancho en dispositivos móviles */
+        width: 100%;
     }
 
     img {
         width: 100%;
         height: auto;
         margin-bottom: 10px;
+    }
+
+    /* Agrega espacio en la parte inferior del banner para evitar que se mezcle con el contenido debajo */
+    .banner {
+        margin-bottom: 20px;
     }
 }
 	  .descrip {
