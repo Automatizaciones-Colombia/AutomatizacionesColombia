@@ -451,7 +451,8 @@ body {
 
 
 footer{
-    background-color: #f5eabb;
+   position: relative;
+   background-color: #f5eabb;
     color: var(--second-c);
   }
   footer ul{
