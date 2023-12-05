@@ -333,7 +333,6 @@ body {
 
 	#container {
     display: flex;
-    background-color: #fff;
     justify-content: space-around;
     align-items: flex-start;
     flex-wrap: wrap;
@@ -342,6 +341,7 @@ body {
 }
 
 .column {
+    background-color: #fff;	
     width: 30%; /* Ajusta el ancho según tus necesidades */
     margin: 10px; /* Ajusta el margen según tus necesidades */
     padding: 20px;
