@@ -348,6 +348,7 @@ body {
     border: 1px solid #ddd; /* Añade un borde para separar visualmente los elementos */
     box-sizing: border-box;
     text-align: center;
+	border-radius: 8px;
 }
 
 img {
